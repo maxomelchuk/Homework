@@ -1,0 +1,20 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(
+    to bottom,
+    red 16.6%,
+    orange 16.6% 33.2%,
+    yellow 33.2% 49.8%,
+    green 49.8% 66.4%,
+    blue 66.4% 83%,
+    purple 83% 100%
+  );
+  z-index: -1;
+}

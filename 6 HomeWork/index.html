@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Creepster&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="backnav"><img src="./img/sword_PNG5525.png" alt="" /></div>
+      <nav>
+        <ul>
+          <li><a href="">Главная</a></li>
+          <li><a href="">Статьи</a></li>
+          <li><a href="">Участники</a></li>
+          <li><a href="">О нас</a></li>
+        </ul>
+      </nav>
+      <form id="main_form" action="">
+        <div class="form_options">
+          <div>Choose Your NickName</div>
+          <input id="test" class="nickname" type="text" name="nick" value="" />
+        </div>
+        <div class="form_options">
+          <div class="gender">Gender</div>
+          <div>
+            <div><input type="radio" name="gender" value="" />Male</div>
+            <div><input type="radio" name="gender" value="" />Female</div>
+            <div>
+              <input type="radio" name="gender" value="" checked />Not Sure
+            </div>
+          </div>
+        </div>
+        <div class="form_options">
+          <div>Are you 16+ ?</div>
+          <div><input type="checkbox" value="" /> Yeah!</div>
+        </div>
+        <div class="form_options_character">
+          <div>Choose Your Character</div>
+          <div>
+            <select class="character" name="theme" required="required">
+              <option value="1">Warrior</option>
+              <option value="2">Ranger</option>
+              <option value="3">Tank</option>
+              <option value="4">Support</option>
+              <option value="5">Wizzard</option>
+            </select>
+          </div>
+        </div>
+        <div class="submit_btn">
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+    <button onclick="alert(555)">Нажми меня</button>
+    <script src="./main.js"></script>
+  </body>
+</html>

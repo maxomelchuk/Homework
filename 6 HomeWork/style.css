@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(./img/deadliest\ swords-min.jpg);
+  background-size: cover;
+  font-family: "Creepster", cursive;
+}
+.container {
+  margin: 20px;
+  padding: 0;
+  position: relative;
+}
+
+nav {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-size: cover;
+}
+.backnav img {
+  position: absolute;
+  top: -20px;
+  left: 10%;
+  width: 80%;
+  z-index: -1;
+  height: 40%;
+}
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 90px 400px;
+  justify-content: space-around;
+  font-weight: 500;
+}
+li {
+  list-style: none;
+  margin-top: 20px;
+  border-radius: 10px;
+  flex-grow: 1;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.822);
+  font-family: "Creepster", cursive;
+  font-size: 25px;
+}
+form {
+  margin: 50px 150px;
+  text-align: center;
+  background-color: rgba(240, 248, 255, 0.379);
+  border-radius: 10px;
+}
+.form_options {
+  margin: 40px auto;
+  font-size: 20px;
+}
+.form_options div {
+  margin: 10px auto;
+}
+.nickname {
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+  box-shadow: 10px 5px 5px saddlebrown;
+  background-color: rgba(225, 206, 193, 0.716);
+}
+.character {
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: rgba(225, 206, 193, 0.716);
+}
+
+.form_options_character {
+  padding-bottom: 20px;
+}
+select {
+  border-radius: 10px;
+  text-align: center;
+}
+.submit_btn button {
+  border-radius: 10px;
+  width: 200px;
+  height: 35px;
+  margin-bottom: 10px;
+  font-family: "Creepster", cursive;
+  font-size: 25px;
+  color: white;
+  background-color: black;
+}

@@ -1,0 +1,23 @@
+.info {
+  width: 100%;
+}
+#form {
+  width: 800px;
+  margin: 0 auto;
+}
+#form div {
+  width: 500px;
+  margin: 20px auto;
+}
+#form div span {
+  display: inline-block;
+  width: 100px;
+}
+button {
+  display: block;
+  width: 100px;
+  margin: 0 auto;
+}
+input {
+  width: 290px;
+}

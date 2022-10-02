@@ -1,0 +1,18 @@
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  font-size: 20px;
+}
+ul,
+a {
+  list-style: none;
+  text-decoration: none;
+}
+.run {
+  display: block;
+  position: absolute;
+  transition: 1s;
+}
+.run:hover {
+  margin-left: 200px;
+}

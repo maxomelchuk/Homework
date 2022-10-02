@@ -1,0 +1,31 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+table {
+  border-collapse: collapse;
+  font-family: sans-serif;
+  font-size: 24px;
+  margin: 50px auto;
+}
+img {
+  width: 30px;
+  height: 20px;
+}
+td {
+  padding: 15px 20px;
+}
+th {
+  padding: 30px 20px;
+  text-align: left;
+}
+td {
+  margin: 0px;
+  border-top: 1px solid rgba(0, 0, 0, 0.151);
+}
+tr td:nth-child(2) {
+  font-weight: bold;
+}
+tr:hover {
+  background-color: rgba(0, 0, 0, 0.049);
+}

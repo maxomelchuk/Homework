@@ -1,0 +1,109 @@
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+  padding: 0 auto;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+form {
+  margin: 0 auto;
+  padding: 0 auto;
+  background-color: rgb(251, 255, 215);
+  border-radius: 10px;
+  border: 2px solid green;
+  box-shadow: 10px 5px 5px 5px rgba(6, 255, 35, 0.532);
+  text-align: center;
+}
+form div {
+  margin: 10px auto;
+  padding: auto;
+}
+input {
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px 3px rgba(6, 255, 35, 0.532);
+}
+.div_text {
+  width: 300px;
+  font-size: 25px;
+}
+
+.main_text {
+  font-size: 25px;
+  font-weight: bold;
+  width: 300px;
+}
+button {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 20px;
+  width: 150px;
+  border-radius: 5px;
+  background-color: yellow;
+  color: rgb(47, 109, 255);
+
+  box-shadow: 3px 3px 3px 3px rgba(6, 255, 35, 0.532);
+}
+select {
+  width: 300px;
+  font-size: 16px;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 3px 3px 3px 3px rgba(6, 255, 35, 0.532);
+}
+.description input {
+  height: 100px;
+}
+input:invalid {
+  /* border-color: rgba(224, 0, 0, 0.7);
+  background-color: rgba(255, 221, 221, 0.6); */
+  width: 300px;
+}
+input:focus:invalid {
+  outline: none;
+}
+.error {
+  width: 300px;
+  padding: 0;
+  font-size: 80%;
+  color: white;
+  background-color: rgb(246, 73, 73);
+  border-radius: 0 0 5px 5px;
+  visibility: visible;
+  transition: all 1s ease;
+}
+.visibility {
+  visibility: hidden;
+  width: 300px;
+  padding: 0;
+  font-size: 80%;
+  color: white;
+  background-color: rgba(255, 193, 193, 0);
+  border-radius: 0 0 5px 5px;
+  transition: all 1s ease;
+}
+.img_call {
+  width: 100px;
+}
+
+.callback {
+  position: absolute;
+  bottom: 20%;
+  left: 25%;
+  visibility: visible;
+  /* z-index: 5; */
+  transition: all 1s ease;
+}
+.see {
+  position: absolute;
+  bottom: 100%;
+  visibility: hidden;
+  /* z-index: -7; */
+  transition: all 1s ease;
+}

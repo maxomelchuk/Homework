@@ -1,0 +1,116 @@
+body {
+  max-width: 960px;
+  margin: 0 auto;
+  font-family: sans-serif;
+  border: 15px solid rgb(43, 2, 158);
+  border-radius: 7px;
+}
+.container_header {
+  border-bottom: 5px solid rgba(0, 0, 0, 0.067);
+  background-color: rgb(255, 255, 255);
+}
+.navbar {
+  padding: 50px 20px 0px;
+}
+ul li a {
+  font-weight: bold;
+  font-size: 24px;
+  color: rgb(0, 0, 0);
+  margin: 0 20px 0 0;
+}
+a {
+  text-decoration: none;
+}
+.cheatsheet {
+  color: rgba(0, 0, 0, 0.188);
+}
+.converter {
+  padding-bottom: 16px;
+  border-bottom: 5px solid blueviolet;
+}
+li {
+  display: inline;
+}
+.container_body {
+  background-color: rgba(245, 245, 245, 0.629);
+}
+.Currency-form {
+  padding: 30px 62px 40px;
+  max-height: 209px;
+  position: relative;
+}
+.block-form {
+  display: flex;
+  border-bottom: 2px solid rgba(128, 128, 128, 0.333);
+  width: 71%;
+}
+
+textarea,
+select {
+  border: none;
+  font-size: 35px;
+  resize: none;
+  background-color: rgba(245, 245, 245, 0.629);
+}
+.support-text {
+  font-weight: bold;
+  color: rgb(137, 43, 226);
+  margin-bottom: 10px;
+}
+.block {
+  margin: 50px 0;
+}
+.img-change {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+}
+.btn-change {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  top: 35%;
+  right: 14%;
+}
+.final-btns {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 60px;
+}
+.btn {
+  display: block;
+  font-size: 24px;
+  border-radius: 100px;
+  padding: 50px 100px;
+  width: 200px;
+  text-align: center;
+}
+
+.buy {
+  background-color: rgb(255, 198, 91);
+  color: black;
+}
+.fix {
+  background-color: blueviolet;
+  color: aliceblue;
+}
+.find-link {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 70px;
+}
+.cursor {
+  width: 17px;
+  margin-right: 15px;
+}
+.local-url {
+  font-size: 24px;
+  text-align: center;
+  margin: 0 10px;
+  color: blueviolet;
+  border-bottom: 2px dashed blueviolet;
+}
+.footer {
+  font-size: 14px;
+  padding: 50px 70px;
+}

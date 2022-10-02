@@ -1,0 +1,181 @@
+.container {
+  width: 1000px;
+
+  margin: 0 auto;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+}
+#form {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 17px;
+  color: aliceblue;
+}
+nav {
+  height: 60px;
+  background-color: blueviolet;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px 1px rgb(0, 0, 0);
+}
+#submit,
+.sing-up {
+  background-color: rgb(204, 0, 255);
+  color: rgb(255, 255, 255);
+  width: 150px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 20px;
+  box-shadow: 5px 4px 50px;
+}
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+#form input {
+  border-radius: 5px;
+  background-color: rgb(231, 205, 255);
+  height: 20px;
+  box-shadow: 2px 0px 20px 1px white;
+}
+.side_left {
+  margin-top: 10px;
+  width: 400px;
+  border-radius: 10px;
+}
+.photo {
+  height: 400px;
+}
+#avatar {
+  margin-top: 10px;
+  width: 400px;
+  height: 400px;
+  border-radius: 10px;
+  box-shadow: 2px 0px 20px 1px rgb(0, 0, 0);
+}
+.following {
+  height: 400px;
+  margin: 40px auto 5px;
+}
+.followers {
+  height: 400px;
+}
+
+.side_right {
+  width: 600px;
+  /* background-color: rgb(255, 140, 0); */
+  border-radius: 10px;
+  margin: 0 auto;
+  padding: 10px;
+}
+.user {
+  display: flex;
+  margin-top: 10px;
+}
+.user_info {
+  /* border-right: 2px solid rgba(0, 0, 0, 0.048); */
+  height: 200px;
+}
+.user_info div {
+  margin: 10px;
+  color: rgb(60, 0, 115);
+}
+#name:before {
+  content: "User Name - ";
+  font-weight: bold;
+  font-style: italic;
+}
+#date:before {
+  content: "Registration date - ";
+  font-weight: bold;
+  font-style: italic;
+}
+#email:before {
+  content: "Email - ";
+  font-weight: bold;
+  font-style: italic;
+}
+.followers_text {
+  font-style: italic;
+  background-color: blueviolet;
+  text-align: center;
+  border-radius: 10px;
+}
+.followers_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.199);
+}
+.follower {
+  margin: 15px;
+  width: 100px;
+  height: 150px;
+}
+.follower img {
+  width: 100px;
+  height: 120px;
+}
+.follower div {
+  text-align: center;
+  overflow: hidden;
+}
+#organizations {
+  padding-left: 20px;
+  width: 100%;
+}
+#org_title {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  border-top: 2px solid rgba(0, 0, 0, 0.06);
+}
+#org_title img {
+  width: 40px;
+  height: 40px;
+}
+#org_title div {
+  margin-top: 5px;
+}
+.org_img {
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+  display: block;
+  margin: 0 auto;
+}
+.org_inner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.divImg {
+  margin: 0 auto;
+}
+#sub {
+  margin-top: 100px;
+  padding-left: 20px;
+  width: 100%;
+}
+#sub_title {
+  margin: 30px 0 0;
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  border-top: 2px solid rgba(0, 0, 0, 0.06);
+}
+#sub_title img {
+  width: 40px;
+}
+#sub_title div {
+  margin-top: 5px;
+}
+.a_sub {
+  color: black;
+  display: inline-block;
+  margin-right: 20px;
+}
+.a_sub:hover {
+  color: blueviolet;
+}

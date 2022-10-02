@@ -1,0 +1,68 @@
+#userCard {
+  width: 100%;
+  display: flex;
+
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.topGamers {
+  width: 100%;
+}
+.title {
+  font-family: "Macondo", cursive;
+  text-align: center;
+  margin: 20px;
+  font-size: 40px;
+}
+.card {
+  width: 250px;
+  border: 1px solid rgb(209, 209, 209);
+  border-radius: 20px;
+  padding: 10px;
+  text-align: center;
+  margin: 10px;
+  font-family: "Macondo", cursive;
+  font-size: 20px;
+}
+.card div {
+  margin-top: 5px;
+}
+.avatar {
+  display: block;
+  margin: 0 auto;
+  width: 50px;
+}
+
+#sort_Title {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  border-top: 2px solid rgb(240, 239, 239);
+  border-bottom: 2px solid rgb(240, 239, 239);
+  margin: 30px 0;
+}
+button {
+  display: block;
+  border: 2px solid green;
+  background-color: rgb(2, 169, 2);
+  border-radius: 5px;
+  text-align: center;
+  margin: 20px;
+  font-family: "Macondo", cursive;
+  font-size: 40px;
+  color: white;
+}
+#sortGamers div {
+  border-bottom: 2px solid rgb(240, 239, 239);
+  margin: 10px 0;
+  font-family: "Macondo", cursive;
+  font-size: 20px;
+  padding: 5px 0;
+  display: flex;
+  justify-content: space-between;
+}
+#sortGamers div span {
+  display: block;
+  width: 500px;
+  text-align: center;
+}
