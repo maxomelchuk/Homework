@@ -54,5 +54,3 @@ sendButton.addEventListener("click", function () {
   });
 });
 // sdfhgfhjh
-// sdfhgfhjh
-// sdfhgfhjh
